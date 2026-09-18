@@ -129,7 +129,8 @@ repository.
   the Freudenreich (1998) and Coleman et al. (2020) maps from C. Gordon's
   public repository, <https://github.com/chrisgordon1/galactic_bulge_templates>;
   the nuclear bulge from the template release accompanying Pohl, Macias,
-  Coleman and Gordon (2022); and the Cao et al. (2013) template from `gcepy`
+  Coleman and Gordon (2022), <https://zenodo.org/records/6276721>; and the
+  Cao et al. (2013) template from `gcepy`
   (S. D. McDermott et al.), <https://github.com/samueldmcdermott/gcepy>.
 * Portions of this code were written with Claude Code (Anthropic) under the
   authors' direction, as stated in the Comment's acknowledgments.
