@@ -130,7 +130,11 @@ repository.
   public repository, <https://github.com/chrisgordon1/galactic_bulge_templates>;
   the nuclear bulge from the template release accompanying Pohl, Macias,
   Coleman and Gordon (2022), <https://zenodo.org/records/6276721>; and the
-  Cao et al. (2013) template from `gcepy`
-  (S. D. McDermott et al.), <https://github.com/samueldmcdermott/gcepy>.
+  `cao13` template distributed with `gcepy`
+  (<https://github.com/samueldmcdermott/gcepy>), added there with Song et
+  al. (2024, arXiv:2402.05449). It follows the Cao et al. (2013) density
+  law; its geometry is gcepy's, not necessarily the published parameters.
+  gcepy's separate `bb` template, a Cao13 model displaced ~1.6° in
+  longitude, is **not** used.
 * Portions of this code were written with Claude Code (Anthropic) under the
   authors' direction, as stated in the Comment's acknowledgments.
