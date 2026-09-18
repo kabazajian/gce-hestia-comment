@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.aux
+*.log
+*.out
+.DS_Store
+# never commit data that is not ours to redistribute
+*_minimal_particles.arrow
+profile_G*_AHF.txt
+stage3_maps/
+rho_k32/

@@ -1,0 +1,284 @@
+{
+ "G1.2": {
+  "v_normal": [
+   0.3963989916332066,
+   -0.03249799931406474,
+   0.9175029806342648
+  ],
+  "v_major": [
+   -0.9176064802886289,
+   -0.04606160267476051,
+   0.3948122035744928
+  ],
+  "source": "profile_G11_AHF.txt",
+  "r_kpch": 10.2811,
+  "r_kpc_physical": 15.18626292466765,
+  "b_over_a": 0.977268,
+  "c_over_a": 0.677174,
+  "Ea_raw": [
+   0.852202,
+   0.38476,
+   -0.354558
+  ],
+  "tilt_Ea_off_plane_deg": 3.4150945850063763e-06,
+  "bin_sensitivity_deg": {
+   "prev": {
+    "r_kpch": 8.1059,
+    "d_major_deg": 35.97375484945526,
+    "d_normal_deg": 0.9996948852868789
+   },
+   "next": {
+    "r_kpch": 13.04,
+    "d_major_deg": 15.533432497566636,
+    "d_normal_deg": 1.3677171935047767
+   }
+  },
+  "v_major_ea": [
+   0.8522020260224389,
+   0.38476002474228205,
+   -0.3545580773351085
+  ],
+  "azimuth_deg": 160,
+  "paper_label": "G1.1",
+  "scan_residual": {
+   "dm_max": 0.016,
+   "stars_max": 0.011
+  },
+  "note": "option (b): observer azimuth from the AHF Ea chosen per halo (10 deg grid) to match the published panels of the PAPER-labelled halo; v_major_ea is the un-rotated AHF axis"
+ },
+ "G1.1": {
+  "v_normal": [
+   0.4276559746784905,
+   -0.30497798194225423,
+   0.8509399496158471
+  ],
+  "v_major": [
+   0.8615682598843961,
+   0.4223609572623533,
+   -0.281622718082548
+  ],
+  "source": "profile_G12_AHF.txt",
+  "r_kpch": 10.4472,
+  "r_kpc_physical": 15.431610044313146,
+  "b_over_a": 0.99025,
+  "c_over_a": 0.789137,
+  "Ea_raw": [
+   0.800984,
+   0.564167,
+   -0.200351
+  ],
+  "tilt_Ea_off_plane_deg": 2.3443822150653013e-05,
+  "bin_sensitivity_deg": {
+   "prev": {
+    "r_kpch": 8.2271,
+    "d_major_deg": 1.950042506471187,
+    "d_normal_deg": 0.5020018024741828
+   },
+   "next": {
+    "r_kpch": 13.2665,
+    "d_major_deg": 81.86776940925752,
+    "d_normal_deg": 0.6467503120635288
+   }
+  },
+  "v_major_ea": [
+   0.8009837062756878,
+   0.564167041801364,
+   -0.20035131950142107
+  ],
+  "azimuth_deg": 350,
+  "paper_label": "G1.2",
+  "scan_residual": {
+   "dm_max": 0.024,
+   "stars_max": 0.042
+  },
+  "note": "option (b): observer azimuth from the AHF Ea chosen per halo (10 deg grid) to match the published panels of the PAPER-labelled halo; v_major_ea is the un-rotated AHF axis"
+ },
+ "G2.2": {
+  "v_normal": [
+   0.6234181071543603,
+   -0.2587140444682912,
+   0.7378461268224789
+  ],
+  "v_major": [
+   0.7711701885560519,
+   0.04773394020908722,
+   -0.6348369957985582
+  ],
+  "source": "profile_G21_AHF.txt",
+  "r_kpch": 10.6833,
+  "r_kpc_physical": 15.780354505169864,
+  "b_over_a": 0.994413,
+  "c_over_a": 0.749843,
+  "Ea_raw": [
+   0.396863,
+   -0.708377,
+   -0.583697
+  ],
+  "tilt_Ea_off_plane_deg": 5.263014220319208e-06,
+  "bin_sensitivity_deg": {
+   "prev": {
+    "r_kpch": 8.2694,
+    "d_major_deg": 4.381529782829888,
+    "d_normal_deg": 0.580083546033289
+   },
+   "next": {
+    "r_kpch": 13.8017,
+    "d_major_deg": 59.9327676960398,
+    "d_normal_deg": 0.23324566089478327
+   }
+  },
+  "v_major_ea": [
+   0.3968628650736252,
+   -0.7083768345343439,
+   -0.5836969475855226
+  ],
+  "azimuth_deg": 50,
+  "paper_label": "G2.1",
+  "scan_residual": {
+   "dm_max": 0.01,
+   "stars_max": 0.012
+  },
+  "note": "option (b): observer azimuth from the AHF Ea chosen per halo (10 deg grid) to match the published panels of the PAPER-labelled halo; v_major_ea is the un-rotated AHF axis"
+ },
+ "G2.1": {
+  "v_normal": [
+   0.9877497572323761,
+   0.10535597410576991,
+   0.11511097170820152
+  ],
+  "v_major": [
+   0.020427836421021556,
+   0.6440226871530148,
+   -0.7647336019368877
+  ],
+  "source": "profile_G22_AHF.txt",
+  "r_kpch": 9.0281,
+  "r_kpc_physical": 13.335450516986706,
+  "b_over_a": 0.994291,
+  "c_over_a": 0.727173,
+  "Ea_raw": [
+   -0.148805,
+   0.858039,
+   0.491555
+  ],
+  "tilt_Ea_off_plane_deg": 4.615118439278356e-05,
+  "bin_sensitivity_deg": {
+   "prev": {
+    "r_kpch": 7.0083,
+    "d_major_deg": 57.11067182999561,
+    "d_normal_deg": 0.3214283199385032
+   },
+   "next": {
+    "r_kpch": 11.6299,
+    "d_major_deg": 72.42143567747554,
+    "d_normal_deg": 0.30454685935813397
+   }
+  },
+  "v_major_ea": [
+   -0.14880578310297637,
+   0.8580388415035943,
+   0.4915548650825051
+  ],
+  "azimuth_deg": 280,
+  "paper_label": "G2.2",
+  "scan_residual": {
+   "dm_max": 0.004,
+   "stars_max": 0.051
+  },
+  "note": "option (b): observer azimuth from the AHF Ea chosen per halo (10 deg grid) to match the published panels of the PAPER-labelled halo; v_major_ea is the un-rotated AHF axis"
+ },
+ "G3.2": {
+  "v_normal": [
+   0.9732862702349171,
+   -0.22410806222406035,
+   0.04989401385317466
+  ],
+  "v_major": [
+   -0.0871725361443699,
+   -0.15966544224153553,
+   0.9833147489466297
+  ],
+  "source": "profile_G31_AHF.txt",
+  "r_kpch": 10.6242,
+  "r_kpc_physical": 15.693057607090102,
+  "b_over_a": 0.994007,
+  "c_over_a": 0.717305,
+  "Ea_raw": [
+   -0.181695,
+   -0.618972,
+   0.764107
+  ],
+  "tilt_Ea_off_plane_deg": 1.5344191370284065e-05,
+  "bin_sensitivity_deg": {
+   "prev": {
+    "r_kpch": 8.1878,
+    "d_major_deg": 10.514364164801654,
+    "d_normal_deg": 0.27730962487061633
+   },
+   "next": {
+    "r_kpch": 13.7855,
+    "d_major_deg": 24.565993940818263,
+    "d_normal_deg": 1.1048382956774814
+   }
+  },
+  "v_major_ea": [
+   -0.18169483739118913,
+   -0.6189723951852735,
+   0.7641074270441264
+  ],
+  "azimuth_deg": 330,
+  "paper_label": "G3.1",
+  "scan_residual": {
+   "dm_max": 0.014,
+   "stars_max": 0.016
+  },
+  "note": "option (b): observer azimuth from the AHF Ea chosen per halo (10 deg grid) to match the published panels of the PAPER-labelled halo; v_major_ea is the un-rotated AHF axis"
+ },
+ "G3.1": {
+  "v_normal": [
+   0.7837470959819859,
+   0.47577205826566654,
+   0.3992260488914207
+  ],
+  "v_major": [
+   0.08413841385887257,
+   0.5555331107150789,
+   -0.8272265047812124
+  ],
+  "source": "profile_G32_AHF.txt",
+  "r_kpch": 10.2858,
+  "r_kpc_physical": 15.193205317577547,
+  "b_over_a": 0.988301,
+  "c_over_a": 0.707625,
+  "Ea_raw": [
+   -0.591395,
+   0.768034,
+   0.245714
+  ],
+  "tilt_Ea_off_plane_deg": 2.4774151603363134e-05,
+  "bin_sensitivity_deg": {
+   "prev": {
+    "r_kpch": 8.0879,
+    "d_major_deg": 47.30050675457892,
+    "d_normal_deg": 0.27000953499564523
+   },
+   "next": {
+    "r_kpch": 13.081,
+    "d_major_deg": 15.516423380360605,
+    "d_normal_deg": 0.2532873546847563
+   }
+  },
+  "v_major_ea": [
+   -0.591395445169845,
+   0.7680339320772057,
+   0.24571387142444168
+  ],
+  "azimuth_deg": 280,
+  "paper_label": "G3.2",
+  "scan_residual": {
+   "dm_max": 0.017,
+   "stars_max": 0.023
+  },
+  "note": "option (b): observer azimuth from the AHF Ea chosen per halo (10 deg grid) to match the published panels of the PAPER-labelled halo; v_major_ea is the un-rotated AHF axis"
+ }
+}

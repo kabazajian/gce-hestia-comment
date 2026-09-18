@@ -1,0 +1,7 @@
+[deps]
+Arrow = "69666777-d1a9-59fb-9406-91d4454c9d45"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+HestiaUtils = "3f427d17-6377-4d41-bf72-61d89616e759"
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
+OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"

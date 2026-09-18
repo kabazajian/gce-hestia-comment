@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or these derived products, please cite the Comment and this repository."
+title: "Analysis code for: Comment on 'Fermi-LAT Galactic Center Excess Morphology of Dark Matter in Simulations of the Milky Way Galaxy'"
+version: 0.1.0
+date-released: 2026-09-17
+license: MIT
+repository-code: "https://github.com/kabazajian/gce-hestia-comment"
+authors:
+  - family-names: Abazajian
+    given-names: Kevork N.
+    orcid: "https://orcid.org/0000-0001-9919-6362"
+    affiliation: "University of California, Irvine"
+  - family-names: Kumar
+    given-names: Jason
+    orcid: "https://orcid.org/0009-0003-1230-2276"
+    affiliation: "University of Hawai'i"
+  - family-names: Macias
+    given-names: Oscar
+    orcid: "https://orcid.org/0000-0001-8867-2693"
+    affiliation: "San Francisco State University"
+preferred-citation:
+  type: article
+  title: "Comment on 'Fermi-LAT Galactic Center Excess Morphology of Dark Matter in Simulations of the Milky Way Galaxy'"
+  authors:
+    - family-names: Abazajian
+      given-names: Kevork N.
+    - family-names: Kumar
+      given-names: Jason
+    - family-names: Macias
+      given-names: Oscar
+  journal: "Physical Review Letters"
+  year: 2026
+  notes: "Comment on Muru et al., Phys. Rev. Lett. 135, 161005 (2025)"

@@ -1,0 +1,65 @@
+% Supplemental Material fragment for the Muru Comment: the correlation table
+% and its accompanying text. Numbers emitted programmatically from
+% stage4_stats.json plus the shape-only statistic (see
+% results/muru_quantitative_statements_2026-08-31.md); do not hand-edit the
+% values. 216 views = 36 azimuths x 6 halos, FWHM 2 deg unless stated.
+% 2026-09-16: gNFW^2 row regenerated from the CELL-AVERAGED template
+% (stage4_stats.py rerun; analysis/docs/muru_gnfw2_quadrature_2026-09-08.md).
+% Only that row moved: J 0.92->0.91, stars 0.72->0.70 at 2 deg. The 3-deg
+% ordering (gNFW^2 0.957 vs Coleman 0.949) survives rounding.
+% Numbered \subsection so it sits as A.3 between the concentration
+% measurements and the numerical checks.
+
+\subsection{Map correlations, and why the comparison does not rest on them}
+
+A natural summary of morphological similarity is the Pearson correlation
+between each map and each template; Table~\ref{tab:corr} gives it. We report
+it because it does \emph{not} discriminate, and the reason is instructive.
+
+On the stellar side the correlation behaves as expected: the old-stellar maps
+prefer each of the three bulge templates over the spherical gNFW$^{2}$
+profile in all 216 views, with median correlations of $0.94$--$0.98$ against
+$0.70$. On the annihilation side it does not: the corrected maps correlate
+with every template at $0.91$--$0.93$, the Coleman template ($0.93$) lying
+above gNFW$^{2}$ ($0.91$). All of these maps are centrally peaked,
+and a correlation between linear maps is dominated by that shared structure
+rather than by the differences of shape and radial profile at issue. At
+$3^{\circ}$ smoothing the ordering reverses again (gNFW$^{2}$ $0.96$,
+Coleman $0.95$), confirming that the statistic is not measuring a stable
+property of the maps.
+
+Dividing each map by its own azimuthally averaged radial profile isolates the
+angular structure and makes the degeneracy explicit. The corrected
+annihilation maps then correlate with the Cao template at $0.92$, essentially
+as well as the old-stellar maps do ($0.95$). This is not evidence that the two
+morphologies agree; it reflects the fact stated in the text that the corrected
+maps remain flattened toward the disk plane in the same sense as the bulge.
+The distinction between them is one of degree and of radial profile, and
+neither is captured by a correlation coefficient. (The gNFW$^{2}$ entries in
+those columns are not meaningful: a spherical template has no angular
+structure to correlate against.)
+
+The comparisons in the text therefore use the concentration $C$ and the
+isophote axis ratios, which are not degenerate in this way.
+
+% table* (full width): with two range columns the table is 37 pt too wide
+% for a single column (18 pt even at \footnotesize) -- measured 2026-09-16.
+\begin{table*}[b]
+\caption{Median Pearson correlation of the corrected annihilation maps
+($J$) and of the old-stellar maps with each template, over the 216
+viewing geometries at $2^{\circ}$ smoothing; ranges in brackets.
+``Angular structure'' divides each map by its own azimuthally
+averaged radial profile over $0.5^{\circ}$--$15^{\circ}$.}
+\label{tab:corr}
+\begin{ruledtabular}
+\begin{tabular}{lcccc}
+ & \multicolumn{2}{c}{full map} & \multicolumn{2}{c}{angular structure} \\
+\cline{2-3}\cline{4-5}
+template & $J$ & stars & $J$ & stars \\ \hline
+gNFW$^{2}$ ($\gamma=1.2$) & 0.91 [0.84, 0.95] & 0.70 [0.16, 0.85] & 0.11 & 0.04 \\
+Freudenreich & 0.91 [0.86, 0.95] & 0.94 [0.22, 0.97] & 0.65 & 0.64 \\
+Cao \textit{et al.} & 0.92 [0.86, 0.97] & 0.98 [0.23, 0.99] & 0.92 & 0.95 \\
+Coleman \textit{et al.} & 0.93 [0.88, 0.97] & 0.96 [0.22, 0.98] & 0.69 & 0.71 \\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
