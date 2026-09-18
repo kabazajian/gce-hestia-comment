@@ -125,9 +125,11 @@ repository.
   <https://gitlab.aip.de/muru/gce_in_hestia>; it is referenced, not
   bundled. `code/anchor/HestiaUtils/` is a stub we wrote so their sources
   load without their private data loader — every function in it raises.
-* Bulge templates: Freudenreich (1998) and Coleman et al. (2020) maps from
-  C. Gordon's public repository; the nuclear bulge from the Pohl et al.
-  (2022) release; Cao et al. (2013) from `gcepy`. Redistributed here only as
-  regridded comparison maps, with these attributions.
+* Bulge templates, redistributed here only as regridded comparison maps:
+  the Freudenreich (1998) and Coleman et al. (2020) maps from C. Gordon's
+  public repository, <https://github.com/chrisgordon1/galactic_bulge_templates>;
+  the nuclear bulge from the template release accompanying Pohl, Macias,
+  Coleman and Gordon (2022); and the Cao et al. (2013) template from `gcepy`
+  (S. D. McDermott et al.), <https://github.com/samueldmcdermott/gcepy>.
 * Portions of this code were written with Claude Code (Anthropic) under the
   authors' direction, as stated in the Comment's acknowledgments.
