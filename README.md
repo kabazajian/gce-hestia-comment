@@ -4,7 +4,7 @@ Code, derived data products, and the figure for
 
 > K. N. Abazajian, J. Kumar, and O. Macias, *Comment on "Fermi-LAT Galactic
 > Center Excess Morphology of Dark Matter in Simulations of the Milky Way
-> Galaxy"* (2026).
+> Galaxy"* (2026), [arXiv:2609.34155](https://arxiv.org/abs/2609.34155).
 
 Every number quoted in the Comment can be recomputed from what is in
 `derived/` without a particle file. The particle data are not included and
