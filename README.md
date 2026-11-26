@@ -6,6 +6,11 @@ Code, derived data products, and the figure for
 > Center Excess Morphology of Dark Matter in Simulations of the Milky Way
 > Galaxy"* (2026), [arXiv:2609.34155](https://arxiv.org/abs/2609.34155).
 
+Version 1.1.0 accompanies the revised Comment. It adds the density-estimator
+test on all six halos and the concentrations measured on the maps of the
+figure (see **What changed in 1.1.0**). Version 1.0.0 is the release as first
+submitted.
+
 Every number quoted in the Comment can be recomputed from what is in
 `derived/` without a particle file. The particle data are not included and
 cannot be (see **Data**), but everything needed to re-run from particles is
@@ -45,13 +50,15 @@ old stars   (this work):   sum_i m_i       / s_i^2  ~  int rho_*       ds
 | 3 | `stage3_views.py` | 216 views (36 azimuths × 6 halos), four maps each |
 | 4 | `stage4_templates.py`, `stage4_stats.py`, `stage4b_continuum.py` | comparison templates, morphology statistics, hold-out test |
 | 5 | `stage5_systematics.py`, `stage5_summary.py` | systematics budget |
+| 5b | `stage5b_k_allhalos.py`, `stage5b_summary.py` | k = 16, 32, 64 on all six halos and all 216 views; the summary runs from `derived/` |
+| 6 | `stage6_conc_figure_footing.py` | concentrations on the maps of the figure, for Muru et al.'s constructions and the corrected maps (SM table of concentrations on the figure's footing) |
 | — | `ahf_frames.py`, `ahf_azimuth_scan.py`, `ahf_radius_scan.py` | viewing frames from the AHF profiles; see `docs/viewing_frames.md` |
 | — | `check_gnfw2_quadrature.py`, `gnfw_jmap.py` | the gNFW² comparison template and its pixel-quadrature check (`C = 0.51`) |
-| — | `conc_per_halo.py` | per-halo concentrations and the unresolved-centre test (SM Table I) |
+| — | `conc_per_halo.py` | per-halo concentrations and the unresolved-centre test (SM table of 216-view concentrations) |
 | — | `figure_maps.py`, `figure_render.py` | the figure |
 
-Stages 1–3, 5 and `figure_maps.py` need the particle files. Everything else
-runs from `derived/`.
+Stages 1–3, 5, 5b (`stage5b_k_allhalos.py`) and `figure_maps.py` need the
+particle files. Everything else runs from `derived/`.
 
 ### Reproducing the figure without particles
 
@@ -97,6 +104,8 @@ What is here is everything the Comment's numbers rest on:
 | `derived/figure_maps.npz` + `_meta.json` | the maps behind the figure, all six halos, at the frames used |
 | `derived/stage4_stats.json` | every morphology statistic, all 216 views, both smoothings |
 | `derived/stage5_systematics.json` | the systematics variants |
+| `derived/stage5b_k_allhalos.json` | concentration, core-excluded concentration and core fraction at k = 16, 32, 64, all 216 views, both smoothings |
+| `derived/stage6_conc_figure_footing.json` | concentrations on the maps of the figure (3° top-hat, one view per galaxy), keyed by the paper's halo names |
 | `derived/stage4_templates.npz` | the bulge and gNFW² comparison templates (gNFW² cell-averaged) |
 | `derived/conc_per_halo.json` | per-halo concentrations and the core-excision test |
 | `derived/muru_frames.json`, `ahf_frames*.json` | per-halo centers, disk normals, bar axes; the AHF-derived viewing frames |
@@ -107,6 +116,26 @@ One filter is applied: statistics against `combo_*` templates — bulge +
 diffuse combinations weighted by fitted amplitudes from a separate,
 unpublished analysis — are removed. The Comment uses only the individual
 bulge templates and gNFW², so nothing it says depends on them.
+
+## What changed in 1.1.0
+
+* `stage5b_k_allhalos.py` extends the k test from one halo to all six.
+  `python code/stage5b_summary.py` prints the numbers the Comment quotes:
+  between k = 16 and k = 64 the concentration changes by at most 0.007
+  (0.004 relative to k = 32), and by at most 0.004 with the inner 1.6°
+  excluded (Gaussian FWHM 2°).
+* `python code/stage6_conc_figure_footing.py` measures the concentration on
+  the maps of the figure. The quadratic-DM maps exceed Muru et al.'s stellar
+  maps by 4–22%; the corrected annihilation maps exceed the corrected
+  stellar maps by 51–84%. These use the figure's 3° top-hat aperture and one
+  view per galaxy, and are not comparable with the 216-view, Gaussian
+  FWHM 2° medians (0.43 and 0.23).
+* The axis ratios of the revised Supplemental Material are the entries of
+  `derived/figure_ratios.json`, unchanged from 1.0.0.
+* No file of 1.0.0 is changed other than this README and `CITATION.cff`.
+
+Halo keys in `derived/` are particle-file labels except where stated; see
+`docs/viewing_frames.md` for the mapping to the paper's names.
 
 ## Dependencies
 

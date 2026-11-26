@@ -1,0 +1,71 @@
+{
+ "_provenance": {
+  "script": "analysis/code/stage6_conc_figure_footing.py",
+  "maps": "figure_maps.npz",
+  "kernel": "3 deg top-hat",
+  "views": "one per galaxy",
+  "los_kpc": 15,
+  "labels": "paper"
+ },
+ "G1.1": {
+  "lin_dm": 0.15676700943940788,
+  "their_stars": 0.20845939425395235,
+  "quad_dm": 0.24804848612058086,
+  "corr_stars": 0.20519209440546257,
+  "j_corr": 0.3774604390287562,
+  "quad_over_their_stars": 1.1899127262089217,
+  "j_over_corr_stars": 1.839546694634779
+ },
+ "G1.2": {
+  "lin_dm": 0.1638502304469937,
+  "their_stars": 0.21810242502090116,
+  "quad_dm": 0.26638551620171985,
+  "corr_stars": 0.215021389969418,
+  "j_corr": 0.3630212366585661,
+  "quad_over_their_stars": 1.2213780574708952,
+  "j_over_corr_stars": 1.6883029019122135
+ },
+ "G2.1": {
+  "lin_dm": 0.14232785746873802,
+  "their_stars": 0.20235428373940392,
+  "quad_dm": 0.2109771792369625,
+  "corr_stars": 0.20035689678240112,
+  "j_corr": 0.30339128800865267,
+  "quad_over_their_stars": 1.0426128636281469,
+  "j_over_corr_stars": 1.514254277646118
+ },
+ "G2.2": {
+  "lin_dm": 0.1656399001571059,
+  "their_stars": 0.2601178668000766,
+  "quad_dm": 0.270154064041042,
+  "corr_stars": 0.2536733536010413,
+  "j_corr": 0.38674990751065946,
+  "quad_over_their_stars": 1.038583267518025,
+  "j_over_corr_stars": 1.5245980786729028
+ },
+ "G3.1": {
+  "lin_dm": 0.14530834165645073,
+  "their_stars": 0.2100293434721432,
+  "quad_dm": 0.21873306361672407,
+  "corr_stars": 0.19993074281627116,
+  "j_corr": 0.32096886459148904,
+  "quad_over_their_stars": 1.0414404958883057,
+  "j_over_corr_stars": 1.6054002504579667
+ },
+ "G3.2": {
+  "lin_dm": 0.1634881664632548,
+  "their_stars": 0.2480053734745881,
+  "quad_dm": 0.264518198775056,
+  "corr_stars": 0.2427876594064077,
+  "j_corr": 0.3818637609078398,
+  "quad_over_their_stars": 1.0665825303263434,
+  "j_over_corr_stars": 1.572830191787588
+ },
+ "median": {
+  "lin_dm": 0.16012758795133136,
+  "their_stars": 0.21406588424652218,
+  "quad_dm": 0.2562833424478184,
+  "corr_stars": 0.2101067421874403,
+  "j_corr": 0.37024083784366113
+ }
+}

@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this code or these derived products, please cite the Comment and this repository."
 title: "Analysis code for: Comment on 'Fermi-LAT Galactic Center Excess Morphology of Dark Matter in Simulations of the Milky Way Galaxy'"
-version: 1.0.0
-date-released: 2026-09-18
+version: 1.1.0
+date-released: 2026-11-25
 license: MIT
 repository-code: "https://github.com/kabazajian/gce-hestia-comment"
 authors:
@@ -29,5 +29,9 @@ preferred-citation:
     - family-names: Macias
       given-names: Oscar
   journal: "Physical Review Letters"
+  identifiers:
+    - type: other
+      value: "arXiv:2609.34155"
+      description: "arXiv preprint"
   year: 2026
   notes: "Comment on Muru et al., Phys. Rev. Lett. 135, 161005 (2025)"
